@@ -1,0 +1,40 @@
+<head>
+    <meta name="description" content="Your Free CAD Alternative for FiveM">
+    <meta name="keywords" content="FiveM, CAD, Roleplay, Police, EMS, Fire, Free">
+    <meta name="author" content="scriptrsherlock">
+    <link href="/Frontend/assets/css/styles.css" rel="stylesheet">
+</head>
+<style>
+    body{
+        background-color: rgba(40, 39, 39, 0.979);
+    }
+</style>
+<script src="/Frontend/assets/js/clock.js"></script>
+<script src="/Frontend/assets/js/healthstatus.js"></script>
+<body onload="Clock(); healthstatus();">
+    <div class="header">
+        <img src="/Frontend/assets/img/logo.png" style="object-fit:contain;transform-origin: left top; height: 50px;"></img>
+        <p3 style="top: 25px; color: rgb(0, 128, 0); transform: translate(0%, -50%);width: 175px;position: absolute;" id="healthtext"></p3>
+    </div>
+    <div class="footer">
+        <div style="transform: translate(0, 50%); display: flex; left: 5px; position: fixed; bottom: 25px;">
+            <div style="flex: 1 0 0%; text-align: left;">
+              <h1 style="font-family: 'DM Mono', monospace;color: #d9d9da;font-size: 14px; margin: 0px;">By <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/q5MFsAUkVD" style="color: rgb(0,255,163);">ScriptrSherlock</a>.</h1>
+            </div>
+          </div>
+        <div style="transform: translate(0, 50%); display: flex; right: 5px; position: fixed; bottom: 25px;">
+            <div style="flex: 1 0 0%; text-align: right;">
+              <h1 style="font-family: 'DM Mono', monospace;color: #d9d9da;font-size: 14px; margin: 0px;">CAD/MDT v0.1<br>Powered By <a target="_blank" rel="noopener noreferrer" href="https://beta.rightwaytohost.com" style="color: #2DC3BA;">Right Way To Host</a></h1>
+            </div>
+          </div>
+    </div>
+    <div class="divclock" style="position: absolute; right: 10px; color:#FFFFFF" id="Clock"></div>
+    <div class="middlebox">
+    <p>CAD/MDT System for FiveM</p>
+    <p2>Built by Gamers, for Gamers.</p2>
+    <div class="loginbuttons">
+    <button style="font-family: inherit; position: absolute; width:35%; height: 100%; left: 10%;" type="button">Login</button>
+    <button style="font-family: inherit; position: absolute; width:35%; height: 100%; right: 10%;" type="button">Register</button>
+    </div>
+    </div>
+</body>
